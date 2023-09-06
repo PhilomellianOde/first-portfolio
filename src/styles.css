@@ -1,0 +1,13 @@
+#buttonInput{
+    size: 20px;
+    color: blue;
+}
+
+#buttonLabel{
+    size: 20px;
+    color: blue;
+}
+
+.button{
+    background-color: red;
+}
