@@ -1,13 +1,50 @@
-#buttonInput{
-    size: 20px;
-    color: blue;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 
+// Header Container -- Table of Contents
+*/
+
+.header{
+    padding: 10px;
+    text-align: center;
+    background: #1a66bc;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
 }
 
-#buttonLabel{
-    size: 20px;
-    color: blue;
+.container-h{
+    size: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 100px;
+
 }
 
-.button{
-    background-color: red;
+.item-h{
+    order: 4;
+    text-align: center;
+    align-self: center;
+    
+}
+
+
+/* 
+// Container
+*/
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    padding-left: 100px
+    
+}
+
+.item{
+    order: 4;
+    float: right;
+    padding: 10px;
 }
