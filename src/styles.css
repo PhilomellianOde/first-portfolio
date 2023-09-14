@@ -26,6 +26,7 @@
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 15px;
 
 }
 
@@ -83,10 +84,10 @@ body{
     display: grid;
     max-height: 40px;
     justify-content: center;
-    
+    margin-bottom: 20px;
     text-align: center;
     display: grid;
-    margin-top: 100px;
+    margin-top: 50px;
     /*background:  rgb(7, 19, 16);*/
     color:  rgb(87, 230, 194);
     border-radius: 10px;
@@ -102,11 +103,13 @@ body{
     background:  rgb(7, 19, 16);
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .container-body-section{
     display: grid;
     max-height: 40px;
+    margin-top: 10px;
     justify-content: center;
     text-align: center;
     margin-top: 150px;
@@ -115,9 +118,9 @@ body{
     color:  rgb(87, 230, 194);
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    
+    
 }
-
-
 
 .paragraph{
     margin-top: 10px;
