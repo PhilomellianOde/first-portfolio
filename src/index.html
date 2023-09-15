@@ -9,39 +9,93 @@
 
 
 </head>
-<header>
-    <div class="header">
-        <div class="container">
-            <div class="box"> <!-- Title -->
-                JACOB PIAZZA
-            </div>
-            
-            <!--Nav-->
-            <nav class="container-nav">
-                    <div class="item">Links</div>
-                    <div class="item">Experience</div>
-                    <div class="item">Technologies</div>
-                    <div class="item">About Me</div>
-            </nav>
-        </div>
-    </div>
 
-</header>
 
 <body>
-    <div class="container-body">
+
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="box"> <!-- Title -->
+                    JACOB PIAZZA
+                </div>
+                
+
+
+
+                <!--Nav-->
+                
+                <nav class="container-nav">
+
+                        <!--Hamburger Menu-->
+                        <div class="hamburger-menu">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+
+                        <div class="nav-menu">
+                            <div class="item" id="links-nav">
+                                <a href="#links-section">Links</a>
+                            </div>
+                            
+                            <div class="item" id="experience-nav">
+                            <a href="#experience-section">Experience</a>
+                            </div>
+
+                            <div class="item" id="tech-nav">
+                                <a href="#tech-section">Technologies</a>
+                            </div>
+                            <div class="item" id="aboutme-nav">
+                                <a href="#aboutme-section">About Me</a>
+                            </div>
+                        </div>
+
+                    </nav>
+            </div>
+        </div>
+    
+    </header>
+
+
+
+
+
+
+
+
+    <!-- Sections-->
+    
+<!-- Jacob Piazza - Main Description -->
+        <div class="container-jacobpiazza">
+            <h1 class="heading-jacobpiazza" id="aboutme-section"> Jacob Piazza </h1>
+        </div>
+
+        <div class="container-subheading-jacobpiazza">
+            <h2 class="subheading-jacobpiazza">Data, Business Analysis, Web Development</h2>
+        </div>
+
+
+
+        <div class="container-body"></div>
+
         <div class="container-body-top">
             
-            <h1 class="headings"> About Me </h1>
+
+            <!-- About Me - Section -->
+
+            <h1 class="headings" id="aboutme-section"> About Me </h1>
             
             <div class="paragraph">
                 My name is Jacob Piazza. and I’m passionate about understanding and deriving insight from data and using that data to make high impact business decisions. I love learning and building frameworks around understanding diverse problem sets. I’m experienced at digging through business data, understanding key business processes and driving outcomes. I just finished helping an investment manager towards an exit and am excited about exploring how to shape data analytics in a consulting context
             </div>
         </div>
         
-        <div class="container-body-section">
 
-            <h1 class="headings"> Technologies </h1>
+        <div class="container-body-section">
+            <!-- Technologies - Section -->
+
+            <h1 class="headings" id="tech-section"> Technologies </h1>
             <div class="paragraph">
                 <ul>
                     <li>Python</li>
@@ -54,14 +108,18 @@
             </div>
         </div>
         
-        <div class="container-body-section">
 
-            <h1 class="headings"> Experience </h1>
+        <div class="container-body-section">
+            <!-- Experience - Section -->
+
+            <h1 class="headings" id="experience-section"> Experience </h1>
         </div>
         
+            <!-- Links - Section -->
+
         <div class="container-body-section">
 
-            <h1 class="headings"> Links </h1>
+            <h1 class="headings" id="links-section"> Links </h1>
         </div>
     </div>
     <!-- 
@@ -69,11 +127,8 @@
     <input type="button" id="buttonLabel" onclick="clickFunc()">
     <label for="button" id="buttonLabel">My Button</label>
     </form>
+    -->
     <script src="index.js">
-     -->
-    
-
-
     </script>
 
 

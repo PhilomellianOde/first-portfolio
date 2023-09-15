@@ -7,4 +7,9 @@ function clickFunc(){
 
 }
 
+function navAboutMe(){
+    document.getElementById("aboutMe-nav").onclick(console.log("test"))
+
+}
+
 

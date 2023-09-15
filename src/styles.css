@@ -48,11 +48,53 @@
 }
 
 /* 
+////////////////////////////////////////////////////////////
+*/
+
+/* 
+// Core Nav Menu Styling (hover, etc.)
+*/
+
+a{
+    text-decoration: none;
+    color:  rgb(87, 230, 194);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-menu a{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.nav-menu a:hover{
+    background-color:rgb(34, 97, 81);
+    color: rgba(2, 5, 4, 0.952);
+    border-radius: 50%;
+    padding: 7px;
+    font-weight: bolder;
+}
+
+/* 
 // Nav Container
 */
-.container-nav{
 
+/* Hamburger Menu -- REFACTOR
+
+.hamburger-menu{
+    padding-right: 1.5rem;
+    cursor: pointer;
 }
+  
+.hamburger-menu .line{
+   display: block;
+   width:2.5rem;
+   height: 2px;
+   margin-bottom: 10px;
+   background-color: black;
+   cursor: pointer;
+}
+*/
 
 
 .item{
@@ -61,6 +103,10 @@
     float: right;
     padding: 10px;
 }
+
+/* 
+////////////////////////////////////////////////////////////
+*/
 
 /*
 // Body
@@ -79,14 +125,56 @@ body{
 
 /* Body - Children Containers */
 
+
+/* Jacob Piazza - Main Description*/
+
+.container-jacobpiazza{
+    margin: 10px 0 0 50px;
+    flex: auto;
+    justify-self: center;
+}
+
+.heading-jacobpiazza{
+    flex: auto;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    min-width: px;
+    text-align: ;
+    margin-left:;
+    background: ;
+    border-radius: ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-subheading-jacobpiazza{
+   margin: 0;
+   padding: 0;
+}
+
+.subheading-jacobpiazza{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    min-width: px;
+    text-align: ;
+    margin-left:;
+    background: ;
+    border-radius: ;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sections */
+
+
+
 .container-body-top{
     display: grid;
     max-height: 40px;
     justify-content: center;
-    
     text-align: center;
-    display: grid;
-    margin-top: 100px;
+    margin-top: 70px;
     /*background:  rgb(7, 19, 16);*/
     color:  rgb(87, 230, 194);
     border-radius: 10px;
@@ -109,8 +197,8 @@ body{
     max-height: 40px;
     justify-content: center;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 20px;
+    margin-top: 500px;
+    margin-bottom: 100px;
     /*background:  rgb(7, 19, 16);*/
     color:  rgb(87, 230, 194);
     border-radius: 10px;
